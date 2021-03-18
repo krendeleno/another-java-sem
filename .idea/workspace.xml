@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-sem4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explosion.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javafxexamples/ButtonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javafxexamples/MessengerBoxExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
       <recent name="D:\Java-sem4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ButtonExample">
+  <component name="RunManager" selected="Application.MessengerBoxExample">
     <configuration name="ButtonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javafxexamples.ButtonExample" />
       <module name="Java-sem4" />
@@ -79,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MessengerBoxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javafxexamples.MessengerBoxExample" />
+      <module name="Java-sem4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javafxexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -94,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessengerBoxExample" />
         <item itemvalue="Application.ButtonExample" />
         <item itemvalue="Application.JavaFXHelloWorld" />
       </list>
@@ -108,11 +118,33 @@
       <option name="presentableId" value="Default" />
       <updated>1613043763470</updated>
       <workItem from="1613043764764" duration="3203000" />
-      <workItem from="1616050958262" duration="7310000" />
+      <workItem from="1616050958262" duration="13789000" />
     </task>
+    <task id="LOCAL-00001" summary="Люблю маму и StackOverflow">
+      <created>1616060279620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616060279620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Люблю маму и StackOverflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Люблю маму и StackOverflow" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalAccessException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
