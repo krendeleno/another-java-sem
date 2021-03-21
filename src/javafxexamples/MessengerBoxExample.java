@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 public class MessengerBoxExample extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage){
         primaryStage.setTitle("Мой любимый мессенджер 1");
 
         Parent ui = createInterface();
