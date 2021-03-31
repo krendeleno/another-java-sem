@@ -1,7 +1,6 @@
 package javafxexamples;
 
 import javafx.application.Application;
-import javafx.geometry.HPos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -37,11 +36,7 @@ public class MessengerGridExample extends Application {
         main.add(contacts, 2,1,1,2);
 
         //Ограничения, чтобы это все нормально выглядело
-        GridPane.setHalignment(labelContacts, HPos.CENTER);
-        send.setMaxHeight(Double.MAX_VALUE);
-        send.setMaxWidth(Double.MAX_VALUE);
-        userInput.setMaxWidth(Double.MAX_VALUE);
-        userInput.setMaxHeight(Double.MAX_VALUE);
+        contacts.setPrefHeight(0);
 
         ColumnConstraints col1 = new ColumnConstraints();
         ColumnConstraints col2 = new ColumnConstraints();
@@ -51,12 +46,9 @@ public class MessengerGridExample extends Application {
         RowConstraints row3 = new RowConstraints();
 
         col1.setHgrow(Priority.ALWAYS);
-        col2.setPrefWidth(150);
         col3.setPrefWidth(200);
-
-        row1.setPrefHeight(40);
+        col3.setMinWidth(200);
         row2.setVgrow(Priority.ALWAYS);
-        row3.setMaxHeight(50);
 
         main.getColumnConstraints().addAll(col1, col2, col3);
         main.getRowConstraints().addAll(row1, row2, row3);

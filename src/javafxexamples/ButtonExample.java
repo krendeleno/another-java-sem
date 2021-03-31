@@ -32,10 +32,6 @@ public class ButtonExample extends Application {
         initInteraction();
     }
 
-    private void counter() {
-        i++;
-    }
-
     private void initInteraction() {
         b.setOnAction(actionEvent -> {
             switch (i) {
@@ -49,7 +45,7 @@ public class ButtonExample extends Application {
                     vBox.getChildren().add(explosion);
                 }
             }
-            counter();
+            i++;
         });
     }
 

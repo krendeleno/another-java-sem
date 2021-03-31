@@ -1,7 +1,6 @@
 package javafxexamples;
 
 import javafx.application.Application;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -39,19 +38,15 @@ public class MessengerBoxExample extends Application {
         HBox main = new HBox(leftArea, rightArea);
 
         //Ограничения на размер
-        leftArea.setVgrow(allMessages, Priority.ALWAYS);
-        send.setPrefWidth(150);
-        send.setPrefHeight(Double.MAX_VALUE);
-        userMessage.setPrefHeight(50);
-        userMessage.setHgrow(userInput, Priority.ALWAYS);
-        userInput.setPrefHeight(Double.MAX_VALUE);
+        VBox.setVgrow(allMessages, Priority.ALWAYS);
+        HBox.setHgrow(userInput, Priority.ALWAYS);
+        VBox.setVgrow(contacts, Priority.ALWAYS);
+        HBox.setHgrow(leftArea,Priority.ALWAYS);
 
-        rightArea.setVgrow(contacts, Priority.ALWAYS);
-        rightArea.setPrefWidth(200);
-        rightArea.setAlignment(Pos.CENTER);
-        labelContacts.setPrefHeight(40);
-
-        main.setHgrow(leftArea,Priority.ALWAYS);
+        contacts.setPrefWidth(200);
+        contacts.setMinWidth(200);
+        send.setPrefWidth(100);
+        send.setMinWidth(100);
 
         return main;
     }
