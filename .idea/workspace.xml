@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javafxexamples/CircleControlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/Fractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalCirclesDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalGrayCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalSimpleCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/Palette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteGrayCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteSimpleCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +56,7 @@
       <recent name="D:\Java-sem4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircleControlExample">
+  <component name="RunManager" selected="Application.FractalCirclesDisplay">
     <configuration name="ButtonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javafxexamples.ButtonExample" />
       <module name="Java-sem4" />
@@ -75,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFXHelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javafxexamples.JavaFXHelloWorld" />
+    <configuration name="FractalCirclesDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fractalsexamples.FractalCirclesDisplay" />
       <module name="Java-sem4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javafxexamples.*" />
+          <option name="PATTERN" value="fractalsexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,24 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractalCirclesDisplay" />
         <item itemvalue="Application.CircleControlExample" />
         <item itemvalue="Application.MessengerGridExample" />
         <item itemvalue="Application.MessengerBoxExample" />
         <item itemvalue="Application.ButtonExample" />
-        <item itemvalue="Application.JavaFXHelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +144,10 @@
       <workItem from="1616050958262" duration="15959000" />
       <workItem from="1616316388084" duration="1904000" />
       <workItem from="1616587273039" duration="247000" />
-      <workItem from="1617174859173" duration="10727000" />
+      <workItem from="1617174859173" duration="11440000" />
+      <workItem from="1617289708864" duration="38000" />
+      <workItem from="1619676593278" duration="8988000" />
+      <workItem from="1619692760137" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="Люблю маму и StackOverflow">
       <created>1616060279620</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617179322111</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Теперь я повелитель кругов со слайдерами">
+      <created>1617188640341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617188640341</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +197,8 @@
     <MESSAGE value="Аве мессенджер из Hbox и Vbox" />
     <MESSAGE value="Аве мессенджер из Grid" />
     <MESSAGE value="Инквизиция сожгла на костре некоторые баги" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инквизиция сожгла на костре некоторые баги" />
+    <MESSAGE value="Теперь я повелитель кругов со слайдерами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Теперь я повелитель кругов со слайдерами" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
