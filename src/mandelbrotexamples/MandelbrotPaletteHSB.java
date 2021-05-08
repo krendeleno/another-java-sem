@@ -1,0 +1,11 @@
+package mandelbrotexamples;
+
+import javafx.scene.paint.Color;
+
+public class MandelbrotPaletteHSB implements MandelbrotPalette{
+    @Override
+    public Color colorize(double v) {
+        v = v * 10 - Math.floor(v * 10);
+        return Color.hsb((360 * v), 1, 1);
+    }
+}

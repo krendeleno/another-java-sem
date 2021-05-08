@@ -3,4 +3,5 @@ module javafxexample {
     requires javafx.controls;
     opens javafxexamples;
     opens fractalsexamples;
+    opens mandelbrotexamples;
 }

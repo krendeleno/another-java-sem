@@ -16,11 +16,11 @@ import javafx.stage.Stage;
 public class FractalCirclesDisplay extends Application {
     private Slider sliderHSB;
     private Slider sliderRGB;
-    private double brightnessHSB;
-    private int blueRGB;
+
     WritableImage imageColorSquare = new WritableImage(256, 256);
     ImageView imageViewColorSquare = new ImageView(imageColorSquare);
     PixelWriter fractalColorWriter = imageColorSquare.getPixelWriter();
+
     WritableImage imageHSB = new WritableImage(360, 99);
     ImageView imageViewHSB = new ImageView(imageHSB);
     PixelWriter fractalHSBWriter = imageHSB.getPixelWriter();
@@ -117,7 +117,6 @@ public class FractalCirclesDisplay extends Application {
             }
 
         // Цветной квадрат
-
         for (int xScreen = 0; xScreen < 256; xScreen++)
             for (int yScreen = 0; yScreen < 256; yScreen++) {
                 fractalColorWriter.setArgb(xScreen, yScreen,
@@ -127,8 +126,6 @@ public class FractalCirclesDisplay extends Application {
         sliderRGB = new Slider(0,255,0);
 
         // HSB
-
-
         for (int xScreen = 0; xScreen < 360; xScreen++)
             for (int yScreen = 0; yScreen < 99; yScreen++) {
                 fractalHSBWriter.setColor(xScreen, yScreen,
@@ -136,7 +133,6 @@ public class FractalCirclesDisplay extends Application {
             }
 
         sliderHSB = new Slider(0,1,1);
-
 
         return new HBox(imageViewSimpleCircle, imageViewGrayCircle, imageViewGrayCircle2,
                 new VBox(imageViewColorSquare, sliderRGB), new VBox(imageViewHSB, sliderHSB));

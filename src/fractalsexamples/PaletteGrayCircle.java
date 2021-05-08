@@ -10,5 +10,5 @@ public class PaletteGrayCircle implements Palette {
 // Я просто перевожу прозрачность из 0-1 в 0-255, а потом добавляю ее в уже готовый argb
         int opacity = (int) Math.round(v * 255);
         return ((255 - opacity) << 24) + (0 << 16) + (0 << 8) + 0;
-    };
+    }
 }
