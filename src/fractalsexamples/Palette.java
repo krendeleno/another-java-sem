@@ -9,6 +9,6 @@ public interface Palette {
      * @param v число от 0 до 1
      * @return цвет
      */
-    Color colorize (double v);
-//    int colorize (double v);
+//    Color colorize (double v);
+    int colorize (double v);
 }

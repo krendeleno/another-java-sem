@@ -35,7 +35,6 @@ public class CircleControlExample extends Application {
 
     private void initInteraction() {
 
-        System.out.println(slider.getValue());
         circle.radiusProperty().bind(slider.valueProperty());
         circle.centerXProperty().bind(Bindings.createDoubleBinding(
                 () -> right.getWidth()/2,right.widthProperty()

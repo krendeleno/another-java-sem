@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/Fractal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalCirclesDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalGrayCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalSimpleCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/Palette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteGrayCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteSimpleCircle.java" afterDir="false" />
+    <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="Не очень уверенный в себе фрактальный круг">
+      <change afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalGrayCircle2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/FractalCirclesDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalCirclesDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/FractalGrayCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalGrayCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/FractalSimpleCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/FractalSimpleCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/Palette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/Palette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/PaletteGrayCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteGrayCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractalsexamples/PaletteSimpleCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fractalsexamples/PaletteSimpleCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javafxexamples/CircleControlExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javafxexamples/CircleControlExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oKmfZPxKM1THymL81HFd0wlMeL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,6 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FractalCirclesDisplay" />
@@ -148,6 +167,8 @@
       <workItem from="1617289708864" duration="38000" />
       <workItem from="1619676593278" duration="8988000" />
       <workItem from="1619692760137" duration="1284000" />
+      <workItem from="1619695526820" duration="1641000" />
+      <workItem from="1620470005950" duration="11167000" />
     </task>
     <task id="LOCAL-00001" summary="Люблю маму и StackOverflow">
       <created>1616060279620</created>
@@ -184,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617188640341</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Не очень уверенный в себе фрактальный круг">
+      <created>1619695713526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619695713527</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +226,8 @@
     <MESSAGE value="Аве мессенджер из Grid" />
     <MESSAGE value="Инквизиция сожгла на костре некоторые баги" />
     <MESSAGE value="Теперь я повелитель кругов со слайдерами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Теперь я повелитель кругов со слайдерами" />
+    <MESSAGE value="Не очень уверенный в себе фрактальный круг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Не очень уверенный в себе фрактальный круг" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,6 +235,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalAccessException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
