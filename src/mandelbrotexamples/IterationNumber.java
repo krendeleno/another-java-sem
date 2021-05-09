@@ -6,7 +6,8 @@ public class IterationNumber implements MandelbrotFractal{
     public double steps(double x, double y) {
         double zx = 0;
         double zy = 0;
-        int R = 10000;
+        // Я нашла статью в интернете, где доказывалось, что радиуса равного 2 вполне достаточно
+        int R = 2;
         int N = 1000;
 
         for (double i = 0; i <= N - 1; i++) {

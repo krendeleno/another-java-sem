@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="">
+    <list default="true" id="7bc4650b-34e1-497e-aa37-da3c6ccfc952" name="Default Changelist" comment="Скоро начну продавать NFT-токены на картины из фракталов (добавила масштабирование и сдвиги мышкой)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mandelbrotexamples/MandelbrotDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mandelbrotexamples/MandelbrotDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mandelbrotexamples/IterationNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mandelbrotexamples/IterationNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mandelbrotexamples/MandelbrotPaletteHSB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mandelbrotexamples/MandelbrotPaletteHSB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,8 @@
       <workItem from="1619695526820" duration="1641000" />
       <workItem from="1620470005950" duration="11299000" />
       <workItem from="1620486002202" duration="6748000" />
-      <workItem from="1620542852210" duration="9364000" />
+      <workItem from="1620542852210" duration="9719000" />
+      <workItem from="1620557779400" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="Люблю маму и StackOverflow">
       <created>1616060279620</created>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620493013077</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Скоро начну продавать NFT-токены на картины из фракталов (добавила масштабирование и сдвиги мышкой)">
+      <created>1620552836455</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620552836455</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +237,8 @@
     <MESSAGE value="Не очень уверенный в себе фрактальный круг" />
     <MESSAGE value="Воплощаю идеи супрематистов (задания 1-3 из фракталов)" />
     <MESSAGE value="Множество Мандельборта теперь в рабстве (остальные задания из фракталов, не оптимизированы и без движений экрана)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Множество Мандельборта теперь в рабстве (остальные задания из фракталов, не оптимизированы и без движений экрана)" />
+    <MESSAGE value="Скоро начну продавать NFT-токены на картины из фракталов (добавила масштабирование и сдвиги мышкой)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Скоро начну продавать NFT-токены на картины из фракталов (добавила масштабирование и сдвиги мышкой)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
